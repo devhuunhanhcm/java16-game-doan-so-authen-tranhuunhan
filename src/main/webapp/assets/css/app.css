@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.main{
+    width: 500px;
+    margin: 50px auto 0;
+}
+.add-btn{
+    margin: 10px 0;
+}
+label{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px 0 5px 0;
+}
