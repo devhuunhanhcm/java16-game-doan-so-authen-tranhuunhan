@@ -19,7 +19,7 @@
     <section class="container">
     	<h1 class="mt-4 text-success text-center">GAME ĐOÁN SỐ SIÊU VŨ TRỤ</h1>
       <section style="gap:20px;" class="mt-5 d-flex row h-100 justify-content-center align-content-center">
-        <a class="h5" href="<%= request.getContextPath() + UrlConst.GAME_ROOT %>">Chơi game</a>
+        <a class="h5" href="<%= request.getContextPath() + UrlConst.GAME_ROOT %>">Chơi game ngay</a>
         <a class="h5" href="<%= request.getContextPath() + UrlConst.PLAYER_LOGIN %>"> Đăng nhập</a>
         <a class="h5" href="<%= request.getContextPath() + UrlConst.PLAYER_REGISTER %>"> Đăng kí</a>
        	<a class="h5" href="<%= request.getContextPath() + UrlConst.GAME_RANKING %>">Bảng xếp hạng</a>

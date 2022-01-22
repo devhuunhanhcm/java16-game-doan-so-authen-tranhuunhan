@@ -4,6 +4,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="f"%>
+<%@ page import="cybersoft.javabackend.gamedoanso.util.JspConst"%>
 <!doctype html>
 <html lang="en">
 <head>
@@ -19,6 +20,7 @@
 </head>
 <body>
 	<section class="container mt-5 w-60">
+	<a href="<%= request.getContextPath() + JspConst.HOME%>" class="btn btn-primary">Quay về trang chủ</a>
 		<section class="row h-100 justify-content-center align-content-center">
 			<h1>Ranking board</h1>
 			<table class="table table-striped">
@@ -41,7 +43,6 @@
 							<td>${rank.id }</td>
 						</tr>
 					</c:forEach>
-
 				</tbody>
 			</table>
 		</section>

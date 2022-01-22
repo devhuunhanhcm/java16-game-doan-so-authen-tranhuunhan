@@ -31,7 +31,7 @@ public class RankingServlet extends HttpServlet {
 		
 		List<GameRecord> rankings = records.stream()
 				.filter(t -> t.getIsFinished()).sorted((o1, o2) -> {
-			return o2.getPoint() - o1.getPoint();
+			return o1.getPoint() - o2.getPoint();
 		}).collect(Collectors.toList());
 				
 		req.setAttribute("ranks", rankings);
